@@ -1,0 +1,45 @@
+body
+    max-width: 1140px
+    margin: 0 auto
+
+.mainTitle
+    text-align: center
+
+.countryList
+    display: flex
+    flex-flow: row wrap
+    justify-content: center
+    #countryList__ul
+        display: flex
+        flex-flow: row wrap
+        justify-content: center
+        list-style-type: none
+        margin: 0
+        padding: 0
+
+        .countryCard
+            border: 1px solid black
+            border-radius: 10px
+            width: 100%
+            max-width: 300px
+            height: 100%
+            max-height: 200px
+            padding: 10px
+            margin: 10px
+            background-color: transparent
+            perspective: 1000px
+        
+            &.Africa
+                background-color: lightgreen
+            &.Americas
+                background-color: lightyellow
+            &.Asia
+                background-color: #ffcccb
+            &.Europe
+                background-color: lavender
+            &.Oceania
+                background-color: lightblue
+
+            .countryCard__inner
+                .countryCard__front
+                    .countryCard__flag

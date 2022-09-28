@@ -1,0 +1,51 @@
+body {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.mainTitle {
+  text-align: center;
+}
+
+.countryList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.countryList #countryList__ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.countryList #countryList__ul .countryCard {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  max-height: 200px;
+  padding: 10px;
+  margin: 10px;
+  background-color: transparent;
+  perspective: 1000px;
+}
+.countryList #countryList__ul .countryCard.Africa {
+  background-color: lightgreen;
+}
+.countryList #countryList__ul .countryCard.Americas {
+  background-color: lightyellow;
+}
+.countryList #countryList__ul .countryCard.Asia {
+  background-color: #ffcccb;
+}
+.countryList #countryList__ul .countryCard.Europe {
+  background-color: lavender;
+}
+.countryList #countryList__ul .countryCard.Oceania {
+  background-color: lightblue;
+}
+
+/*# sourceMappingURL=style.css.map */
